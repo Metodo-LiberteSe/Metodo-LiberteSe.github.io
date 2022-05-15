@@ -1,0 +1,73 @@
+body{
+    background: rgb(255, 255, 255);
+
+    color: rgb(0, 0, 0);
+}
+
+header{
+    background-color: #FB00C4;
+    color: white;
+    
+    padding: 1rem 0rem;
+
+    margin-top: 3%;
+
+    border-radius: 1rem;
+}
+
+.container{
+    margin-top: 1%;
+}
+
+
+p{
+    margin-top: 5%;
+}
+
+.container .button{
+    background-color: white;
+    color: black;
+
+    width: 30%;
+    margin-right: 2%;
+
+    font-size: 1.2rem;
+
+    padding: 8px 9px;
+
+    border: 1px solid #2cca4e;
+    border-radius: 10px;
+
+    transition: filter .2s;
+}
+
+.container .button.not{
+    background-color: white;
+    border: 1px solid #dc3545;
+}
+
+
+.buttonSend{
+    background-color: #FB00C4;
+    
+    text-align: center;
+    color: white;
+    
+    padding: 1rem 2.5rem;
+
+    margin-top: 10%;
+
+    border-radius: 1rem;
+}
+
+.buttonSend:hover,
+.button:hover{
+    cursor: pointer;
+    filter: brightness(1.1);
+}
+
+.buttonSend:hover{
+    color: white;
+    text-decoration: none;
+}
+
