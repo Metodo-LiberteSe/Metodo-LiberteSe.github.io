@@ -1,27 +1,35 @@
-body{
+html{
+    font-size: 62.5%;
+}
+
+body{   
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh;
+
     background: rgb(255, 255, 255);
 
     color: rgb(0, 0, 0);
 }
 
-header{
-    background-color: #FB00C4;
+nav{
     color: white;
-    
-    padding: 1rem 0rem;
-
-    margin-top: 3%;
-
-    border-radius: 1rem;
 }
 
 .container{
     margin-top: 1%;
+
+    
 }
 
+span{
+    font-size: 2.5rem;
+}
 
-p{
-    margin-top: 5%;
+h2{
+    margin: 4% 0px;
+
+    font-size: 2.5rem;
 }
 
 .container .button{
@@ -31,7 +39,7 @@ p{
     width: 30%;
     margin-right: 2%;
 
-    font-size: 1.2rem;
+    font-size: 1.6rem;
 
     padding: 8px 9px;
 
@@ -50,12 +58,14 @@ p{
 .buttonSend{
     background-color: #FB00C4;
     
+    font-size: 2.5rem;
     text-align: center;
     color: white;
     
     padding: 1rem 2.5rem;
 
-    margin-top: 10%;
+    margin-top: 6%;
+    margin-bottom: 2%;
 
     border-radius: 1rem;
 }
@@ -70,4 +80,53 @@ p{
     color: white;
     text-decoration: none;
 }
+
+footer{
+    margin-top: auto;
+
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width: 770px){
+    html{
+        font-size: 58%;
+    }
+    
+    span{
+        font-size:  1.6rem;
+    }
+
+    
+    h2{
+        font-size: 1.5rem;
+
+        margin: 5.5rem 0px;
+    }
+
+    .buttonSend{
+        font-size: 1.8rem;
+
+        margin-top: 20%;
+    }
+}
+
+@media (max-width: 350px){
+    html{
+        font-size: 40%;
+    }
+
+    h2{
+        font-size: 1.5rem;
+
+        margin: 5% 0px;
+    }
+
+    .buttonSend{
+        font-size: 1.5rem;
+
+        margin-top: 20%;
+    }
+}
+
+
 
